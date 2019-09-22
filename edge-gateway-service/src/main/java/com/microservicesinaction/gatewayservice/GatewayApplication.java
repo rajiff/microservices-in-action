@@ -5,7 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
 import com.microservicesinaction.gatewayservice.fitlers.pre.GatewayLoggingFilter;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
+@EnableDiscoveryClient
 @EnableZuulProxy
 @SpringBootApplication
 public class GatewayApplication {
