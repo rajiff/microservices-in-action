@@ -1,14 +1,14 @@
-package com.microservicesinaction.fooservice.controllers;
+package com.microservicesinaction.useraccountservice.controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class FooController {
+public class UserAccountController {
 
-    @RequestMapping("/foos")
+    @RequestMapping("/user/prrofile")
     public String foosEndPoint() {
-        return "Foo end point data";
+        return "User profile end point data";
     }
 }
