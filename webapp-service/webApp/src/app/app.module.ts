@@ -7,17 +7,19 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { WelcomeModule } from './welcome/welcome.module';
+import { FooComponent } from './foo/foo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooComponent
   ],
   imports: [
     AppMaterialModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     BrowserModule,
-    WelcomeModule,
+    WelcomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

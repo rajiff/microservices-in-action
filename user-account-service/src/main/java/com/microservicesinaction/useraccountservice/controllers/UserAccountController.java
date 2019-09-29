@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserAccountController {
 
-    @RequestMapping("/user/prrofile")
+    @RequestMapping("/prrofile")
     public String foosEndPoint() {
         return "User profile end point data";
     }
